@@ -1,0 +1,110 @@
+
+================================================================================
+VOICE RECOGNITION SESSION STARTED: 2025-08-07 02:01:39
+================================================================================
+[2025-08-07 02:01:39.405] [ERROR  ] Error: cmd.json not found at /home/antiXuser/Downloads/asr_claude/cmd.json
+[2025-08-07 02:01:39.407] [INFO   ] Confidence threshold set to: 0.60
+[2025-08-07 02:01:39.823] [INFO   ] Command grammar: []
+[2025-08-07 02:01:39.823] [INFO   ] Dictation grammar: ['slap', 'cap', 'scratch that', 'delete that', 'select all', 'copy that', 'paste that', 'new line', 'tab', 'back tab', 'space', 'backspace', 'delete word', 'delete line', 'find', 'replace', 'save', 'save as', 'open', 'new document', 'close window', 'minimize', 'maximize', 'switch window', 'screenshot', 'up arrow', 'down arrow', 'left arrow', 'right arrow', 'page up', 'page down', 'home', 'end', 'escape', 'bold', 'italic', 'underline', 'zoom in', 'zoom out', 'refresh', 'full screen', 'click', 'right click', 'double click', 'scroll up', 'scroll down', 'volume up', 'volume down', 'mute', 'play pause', 'next track', 'previous track', 'lock screen', 'show desktop', 'task manager', 'run dialog', 'start menu', 'alt tab', 'print', 'select line', 'go to line', 'word left', 'word right', 'select word left', 'select word right', 'beginning of line', 'end of line', 'select to beginning', 'select to end', 'comment', 'uncomment']
+[2025-08-07 02:01:40.320] [INFO   ] Enhanced Vosk ASR initialized. Features:
+[2025-08-07 02:01:40.320] [INFO   ] - Auto text formatting in dictation mode
+[2025-08-07 02:01:40.323] [INFO   ] - Confidence tracking and adaptive recognition
+[2025-08-07 02:01:40.323] [INFO   ] - Context-aware processing
+[2025-08-07 02:01:40.323] [INFO   ] - Dictation commands support
+[2025-08-07 02:01:40.323] [INFO   ] - Enhanced audio processing
+[2025-08-07 02:01:40.324] [INFO   ] Waiting for hotkey to start listening...
+[2025-08-07 02:01:58.898] [L:ON/T:ON] [INFO   ] Switched to Enhanced Dictation Recognizer
+[2025-08-07 02:02:26.212] [L:ON/T:OFF] [INFO   ] Switched to Default Recognizer
+[2025-08-07 02:02:34.007] [L:ON/T:ON] [INFO   ] Switched to Enhanced Dictation Recognizer
+[2025-08-07 02:02:39.608] [INFO   ] Cleaning up resources...
+[2025-08-07 02:02:40.635] [INFO   ] Enhanced application terminated.
+
+================================================================================
+VOICE RECOGNITION SESSION STARTED: 2025-08-07 02:02:52
+================================================================================
+[2025-08-07 02:02:52.456] [ERROR  ] Error: cmd.json not found at /home/antiXuser/Downloads/asr_claude/cmd.json
+[2025-08-07 02:02:52.456] [INFO   ] Confidence threshold set to: 0.60
+[2025-08-07 02:02:52.863] [INFO   ] Command grammar: []
+[2025-08-07 02:02:52.863] [INFO   ] Dictation grammar: ['slap', 'cap', 'scratch that', 'delete that', 'select all', 'copy that', 'paste that', 'new line', 'tab', 'back tab', 'space', 'backspace', 'delete word', 'delete line', 'find', 'replace', 'save', 'save as', 'open', 'new document', 'close window', 'minimize', 'maximize', 'switch window', 'screenshot', 'up arrow', 'down arrow', 'left arrow', 'right arrow', 'page up', 'page down', 'home', 'end', 'escape', 'bold', 'italic', 'underline', 'zoom in', 'zoom out', 'refresh', 'full screen', 'click', 'right click', 'double click', 'scroll up', 'scroll down', 'volume up', 'volume down', 'mute', 'play pause', 'next track', 'previous track', 'lock screen', 'show desktop', 'task manager', 'run dialog', 'start menu', 'alt tab', 'print', 'select line', 'go to line', 'word left', 'word right', 'select word left', 'select word right', 'beginning of line', 'end of line', 'select to beginning', 'select to end', 'comment', 'uncomment']
+[2025-08-07 02:02:53.357] [INFO   ] Enhanced Vosk ASR initialized. Features:
+[2025-08-07 02:02:53.358] [INFO   ] - Auto text formatting in dictation mode
+[2025-08-07 02:02:53.360] [INFO   ] - Confidence tracking and adaptive recognition
+[2025-08-07 02:02:53.360] [INFO   ] - Context-aware processing
+[2025-08-07 02:02:53.360] [INFO   ] - Dictation commands support
+[2025-08-07 02:02:53.361] [INFO   ] - Enhanced audio processing
+[2025-08-07 02:02:53.361] [INFO   ] Waiting for hotkey to start listening...
+
+================================================================================
+VOICE RECOGNITION SESSION STARTED: 2025-08-07 02:03:06
+================================================================================
+[2025-08-07 02:03:08.298] [L:ON/T:OFF] [WARNING] Low confidence rejected: can you hear me father (confidence: 0.00)
+[2025-08-07 02:03:10.009] [L:ON/T:OFF] [WARNING] Low confidence rejected: fuck up (confidence: 0.00)
+[2025-08-07 02:03:16.386] [L:ON/T:OFF] [WARNING] Low confidence rejected: what (confidence: 0.00)
+[2025-08-07 02:03:22.749] [L:ON/T:OFF] [WARNING] Low confidence rejected: okay (confidence: 0.00)
+[2025-08-07 02:03:27.056] [L:ON/T:OFF] [WARNING] Low confidence rejected: that's interesting (confidence: 0.00)
+[2025-08-07 02:03:35.785] [L:ON/T:OFF] [WARNING] Low confidence rejected: her (confidence: 0.00)
+
+================================================================================
+VOICE RECOGNITION SESSION STARTED: 2025-08-07 02:04:53
+================================================================================
+[2025-08-07 02:04:53.127] [ERROR  ] Error: cmd.json not found at /home/antiXuser/Development/_completed_tools/asr_claude/cmd.json
+[2025-08-07 02:04:53.128] [INFO   ] Confidence threshold set to: 0.60
+[2025-08-07 02:04:53.521] [INFO   ] Command grammar: []
+[2025-08-07 02:04:53.521] [INFO   ] Dictation grammar: ['slap', 'cap', 'scratch that', 'delete that', 'select all', 'copy that', 'paste that', 'new line', 'tab', 'back tab', 'space', 'backspace', 'delete word', 'delete line', 'find', 'replace', 'save', 'save as', 'open', 'new document', 'close window', 'minimize', 'maximize', 'switch window', 'screenshot', 'up arrow', 'down arrow', 'left arrow', 'right arrow', 'page up', 'page down', 'home', 'end', 'escape', 'bold', 'italic', 'underline', 'zoom in', 'zoom out', 'refresh', 'full screen', 'click', 'right click', 'double click', 'scroll up', 'scroll down', 'volume up', 'volume down', 'mute', 'play pause', 'next track', 'previous track', 'lock screen', 'show desktop', 'task manager', 'run dialog', 'start menu', 'alt tab', 'print', 'select line', 'go to line', 'word left', 'word right', 'select word left', 'select word right', 'beginning of line', 'end of line', 'select to beginning', 'select to end', 'comment', 'uncomment']
+[2025-08-07 02:04:54.007] [INFO   ] Enhanced Vosk ASR initialized. Features:
+[2025-08-07 02:04:54.007] [INFO   ] - Auto text formatting in dictation mode
+[2025-08-07 02:04:54.007] [INFO   ] - Confidence tracking and adaptive recognition
+[2025-08-07 02:04:54.008] [INFO   ] - Context-aware processing
+[2025-08-07 02:04:54.008] [INFO   ] - Dictation commands support
+[2025-08-07 02:04:54.008] [INFO   ] - Enhanced audio processing
+[2025-08-07 02:04:54.008] [INFO   ] Waiting for hotkey to start listening...
+[2025-08-07 02:05:16.405] [L:ON/T:OFF] [WARNING] Low confidence rejected: huh (confidence: 0.00)
+[2025-08-07 02:05:16.405] [L:ON/T:ON] [INFO   ] Switched to Enhanced Dictation Recognizer
+
+================================================================================
+VOICE RECOGNITION SESSION STARTED: 2025-08-07 02:05:17
+================================================================================
+[2025-08-07 02:05:19.002] [L:ON/T:ON] [WARNING] Low confidence rejected: show to end (confidence: 0.00)
+[2025-08-07 02:05:25.119] [L:ON/T:ON] [WARNING] Low confidence rejected: show click (confidence: 0.00)
+[2025-08-07 02:05:26.703] [L:ON/T:ON] [WARNING] Low confidence rejected: end (confidence: 0.00)
+[2025-08-07 02:05:34.359] [L:ON/T:ON] [INFO   ] Switched to Command Mode Recognizer
+[2025-08-07 02:05:44.178] [L:ON/T:ON] [WARNING] Low confidence rejected: play cards (confidence: 0.00)
+[2025-08-07 02:05:48.883] [L:ON/T:ON] [INFO   ] Switched to Enhanced Dictation Recognizer
+[2025-08-07 02:06:05.775] [L:ON/T:OFF] [INFO   ] Switched to Default Recognizer
+[2025-08-07 02:06:09.391] [L:ON/T:ON] [INFO   ] Switched to Enhanced Dictation Recognizer
+[2025-08-07 02:06:12.435] [L:ON/T:ON] [WARNING] Low confidence rejected: page up (confidence: 0.00)
+[2025-08-07 02:06:22.569] [L:ON/T:OFF] [INFO   ] Switched to Default Recognizer
+[2025-08-07 02:06:23.092] [L:ON/T:ON] [INFO   ] Switched to Enhanced Dictation Recognizer
+[2025-08-07 02:06:26.668] [L:ON/T:ON] [WARNING] Low confidence rejected: out task word (confidence: 0.00)
+[2025-08-07 02:06:33.856] [L:ON/T:ON] [WARNING] Low confidence rejected: home (confidence: 0.00)
+[2025-08-07 02:06:38.974] [L:ON/T:ON] [WARNING] Low confidence rejected: home (confidence: 0.00)
+[2025-08-07 02:06:47.688] [L:ON/T:ON] [WARNING] Low confidence rejected: alt tab (confidence: 0.00)
+[2025-08-07 02:06:50.236] [L:ON/T:ON] [WARNING] Low confidence rejected: alt tab (confidence: 0.00)
+[2025-08-07 02:07:02.527] [INFO   ] Cleaning up resources...
+[2025-08-07 02:07:07.074] [INFO   ] Enhanced application terminated.
+
+================================================================================
+VOICE RECOGNITION SESSION STARTED: 2025-08-07 02:09:50
+================================================================================
+[2025-08-07 02:09:50.195] [ERROR  ] Error: cmd.json not found at /home/antiXuser/Development/_completed_tools/asr_claude/cmd.json
+[2025-08-07 02:09:50.196] [INFO   ] Confidence threshold set to: 0.60
+[2025-08-07 02:09:50.613] [INFO   ] Command grammar: []
+[2025-08-07 02:09:50.613] [INFO   ] Dictation grammar: ['slap', 'cap', 'scratch that', 'delete that', 'select all', 'copy that', 'paste that', 'new line', 'tab', 'back tab', 'space', 'backspace', 'delete word', 'delete line', 'find', 'replace', 'save', 'save as', 'open', 'new document', 'close window', 'minimize', 'maximize', 'switch window', 'screenshot', 'up arrow', 'down arrow', 'left arrow', 'right arrow', 'page up', 'page down', 'home', 'end', 'escape', 'bold', 'italic', 'underline', 'zoom in', 'zoom out', 'refresh', 'full screen', 'click', 'right click', 'double click', 'scroll up', 'scroll down', 'volume up', 'volume down', 'mute', 'play pause', 'next track', 'previous track', 'lock screen', 'show desktop', 'task manager', 'run dialog', 'start menu', 'alt tab', 'print', 'select line', 'go to line', 'word left', 'word right', 'select word left', 'select word right', 'beginning of line', 'end of line', 'select to beginning', 'select to end', 'comment', 'uncomment']
+[2025-08-07 02:09:51.124] [INFO   ] Enhanced Vosk ASR initialized. Features:
+[2025-08-07 02:09:51.124] [INFO   ] - Auto text formatting in dictation mode
+[2025-08-07 02:09:51.124] [INFO   ] - Confidence tracking and adaptive recognition
+[2025-08-07 02:09:51.125] [INFO   ] - Context-aware processing
+[2025-08-07 02:09:51.125] [INFO   ] - Dictation commands support
+[2025-08-07 02:09:51.125] [INFO   ] - Enhanced audio processing
+[2025-08-07 02:09:51.125] [INFO   ] Waiting for hotkey to start listening...
+[2025-08-07 02:09:54.651] [L:ON/T:ON] [INFO   ] Switched to Enhanced Dictation Recognizer
+
+================================================================================
+VOICE RECOGNITION SESSION STARTED: 2025-08-07 02:10:01
+================================================================================
+[2025-08-07 02:10:01.893] [L:ON/T:ON] [WARNING] Low confidence rejected: select up (confidence: 0.00)
+[2025-08-07 02:10:04.446] [L:ON/T:ON] [WARNING] Low confidence rejected: out (confidence: 0.00)
+[2025-08-07 02:10:07.502] [L:ON/T:ON] [WARNING] Low confidence rejected: page (confidence: 0.00)
+[2025-08-07 02:10:14.207] [L:ON/T:ON] [WARNING] Low confidence rejected: tab task find replace (confidence: 0.00)
+[2025-08-07 02:10:19.647] [L:OFF/T:OFF] [INFO   ] Switched to Default Recognizer
+[2025-08-07 02:13:11.610] [INFO   ] Cleaning up resources...

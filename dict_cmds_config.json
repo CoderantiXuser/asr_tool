@@ -1,0 +1,439 @@
+{
+  "slap": [
+    {
+      "type": "key_press",
+      "value": "enter"
+    }
+  ],
+  "cap": [
+    {
+      "type": "text_manipulation",
+      "value": "select_word"
+    },
+    {
+      "type": "key_combo",
+      "value": "shift+f3"
+    }
+  ],
+  "scratch that": [
+    {
+      "type": "text_manipulation",
+      "value": "undo"
+    }
+  ],
+  "delete that": [
+    {
+      "type": "text_manipulation",
+      "value": "select_word"
+    },
+    {
+      "type": "key_press",
+      "value": "delete"
+    }
+  ],
+  "select all": [
+    {
+      "type": "text_manipulation",
+      "value": "select_all"
+    }
+  ],
+  "copy that": [
+    {
+      "type": "clipboard_action",
+      "value": "copy"
+    }
+  ],
+  "paste that": [
+    {
+      "type": "clipboard_action",
+      "value": "paste"
+    }
+  ],
+  "new line": [
+    {
+      "type": "text_manipulation",
+      "value": "new_line"
+    }
+  ],
+  "tab": [
+    {
+      "type": "text_manipulation",
+      "value": "indent"
+    }
+  ],
+  "back tab": [
+    {
+      "type": "text_manipulation",
+      "value": "unindent"
+    }
+  ],
+  "space": [
+    {
+      "type": "key_press",
+      "value": "space"
+    }
+  ],
+  "backspace": [
+    {
+      "type": "key_press",
+      "value": "backspace"
+    }
+  ],
+  "delete word": [
+    {
+      "type": "text_manipulation",
+      "value": "delete_word"
+    }
+  ],
+  "delete line": [
+    {
+      "type": "text_manipulation",
+      "value": "delete_line"
+    }
+  ],
+  "find": [
+    {
+      "type": "text_manipulation",
+      "value": "find"
+    }
+  ],
+  "replace": [
+    {
+      "type": "text_manipulation",
+      "value": "replace"
+    }
+  ],
+  "save": [
+    {
+      "type": "key_combo",
+      "value": "ctrl+s"
+    }
+  ],
+  "save as": [
+    {
+      "type": "key_combo",
+      "value": "ctrl+shift+s"
+    }
+  ],
+  "open": [
+    {
+      "type": "key_combo",
+      "value": "ctrl+o"
+    }
+  ],
+  "new document": [
+    {
+      "type": "key_combo",
+      "value": "ctrl+n"
+    }
+  ],
+  "close window": [
+    {
+      "type": "window_action",
+      "value": "close"
+    }
+  ],
+  "minimize": [
+    {
+      "type": "window_action",
+      "value": "minimize"
+    }
+  ],
+  "maximize": [
+    {
+      "type": "window_action",
+      "value": "maximize"
+    }
+  ],
+  "switch window": [
+    {
+      "type": "window_action",
+      "value": "switch"
+    }
+  ],
+  "screenshot": [
+    {
+      "type": "system_action",
+      "value": "screenshot"
+    }
+  ],
+  "up arrow": [
+    {
+      "type": "key_press",
+      "value": "up"
+    }
+  ],
+  "down arrow": [
+    {
+      "type": "key_press",
+      "value": "down"
+    }
+  ],
+  "left arrow": [
+    {
+      "type": "key_press",
+      "value": "left"
+    }
+  ],
+  "right arrow": [
+    {
+      "type": "key_press",
+      "value": "right"
+    }
+  ],
+  "page up": [
+    {
+      "type": "key_press",
+      "value": "page_up"
+    }
+  ],
+  "page down": [
+    {
+      "type": "key_press",
+      "value": "page_down"
+    }
+  ],
+  "home": [
+    {
+      "type": "key_press",
+      "value": "home"
+    }
+  ],
+  "end": [
+    {
+      "type": "key_press",
+      "value": "end"
+    }
+  ],
+  "escape": [
+    {
+      "type": "key_press",
+      "value": "escape"
+    }
+  ],
+  "bold": [
+    {
+      "type": "key_combo",
+      "value": "ctrl+b"
+    }
+  ],
+  "italic": [
+    {
+      "type": "key_combo",
+      "value": "ctrl+i"
+    }
+  ],
+  "underline": [
+    {
+      "type": "key_combo",
+      "value": "ctrl+u"
+    }
+  ],
+  "zoom in": [
+    {
+      "type": "key_combo",
+      "value": "ctrl+plus"
+    }
+  ],
+  "zoom out": [
+    {
+      "type": "key_combo",
+      "value": "ctrl+minus"
+    }
+  ],
+  "refresh": [
+    {
+      "type": "key_press",
+      "value": "f5"
+    }
+  ],
+  "full screen": [
+    {
+      "type": "key_press",
+      "value": "f11"
+    }
+  ],
+  "click": [
+    {
+      "type": "mouse_click",
+      "value": "left"
+    }
+  ],
+  "right click": [
+    {
+      "type": "mouse_click",
+      "value": "right"
+    }
+  ],
+  "double click": [
+    {
+      "type": "mouse_click",
+      "value": {
+        "button": "left",
+        "count": 2
+      }
+    }
+  ],
+  "scroll up": [
+    {
+      "type": "scroll",
+      "value": "up"
+    }
+  ],
+  "scroll down": [
+    {
+      "type": "scroll",
+      "value": "down"
+    }
+  ],
+  "volume up": [
+    {
+      "type": "key_press",
+      "value": "volume_up"
+    }
+  ],
+  "volume down": [
+    {
+      "type": "key_press",
+      "value": "volume_down"
+    }
+  ],
+  "mute": [
+    {
+      "type": "key_press",
+      "value": "volume_mute"
+    }
+  ],
+  "play pause": [
+    {
+      "type": "key_press",
+      "value": "media_play_pause"
+    }
+  ],
+  "next track": [
+    {
+      "type": "key_press",
+      "value": "media_next"
+    }
+  ],
+  "previous track": [
+    {
+      "type": "key_press",
+      "value": "media_previous"
+    }
+  ],
+  "lock screen": [
+    {
+      "type": "system_action",
+      "value": "lock_screen"
+    }
+  ],
+  "show desktop": [
+    {
+      "type": "key_combo",
+      "value": "win+d"
+    }
+  ],
+  "task manager": [
+    {
+      "type": "key_combo",
+      "value": "ctrl+shift+escape"
+    }
+  ],
+  "run dialog": [
+    {
+      "type": "key_combo",
+      "value": "win+r"
+    }
+  ],
+  "start menu": [
+    {
+      "type": "key_press",
+      "value": "cmd"
+    }
+  ],
+  "alt tab": [
+    {
+      "type": "key_combo",
+      "value": "alt+tab"
+    }
+  ],
+  "print": [
+    {
+      "type": "key_combo",
+      "value": "ctrl+p"
+    }
+  ],
+  "select line": [
+    {
+      "type": "text_manipulation",
+      "value": "select_line"
+    }
+  ],
+  "go to line": [
+    {
+      "type": "key_combo",
+      "value": "ctrl+g"
+    }
+  ],
+  "word left": [
+    {
+      "type": "key_combo",
+      "value": "ctrl+left"
+    }
+  ],
+  "word right": [
+    {
+      "type": "key_combo",
+      "value": "ctrl+right"
+    }
+  ],
+  "select word left": [
+    {
+      "type": "key_combo",
+      "value": "ctrl+shift+left"
+    }
+  ],
+  "select word right": [
+    {
+      "type": "key_combo",
+      "value": "ctrl+shift+right"
+    }
+  ],
+  "beginning of line": [
+    {
+      "type": "key_press",
+      "value": "home"
+    }
+  ],
+  "end of line": [
+    {
+      "type": "key_press",
+      "value": "end"
+    }
+  ],
+  "select to beginning": [
+    {
+      "type": "key_combo",
+      "value": "shift+home"
+    }
+  ],
+  "select to end": [
+    {
+      "type": "key_combo",
+      "value": "shift+end"
+    }
+  ],
+  "comment": [
+    {
+      "type": "key_combo",
+      "value": "ctrl+slash"
+    }
+  ],
+  "uncomment": [
+    {
+      "type": "key_combo",
+      "value": "ctrl+slash"
+    }
+  ]
+}
