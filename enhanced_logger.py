@@ -283,6 +283,7 @@ class NotificationOverlay:
         self.root.withdraw()
         self.root.overrideredirect(True)
         self.root.attributes('-topmost', True)
+        self.root.attributes('-toolwindow', True)  # Prevent focus stealing
         
         # Get current theme
         theme = self.themes.get(self.style_theme, self.themes["dark"])

@@ -47,29 +47,40 @@ def process_command(text, commands, exec_agent):
     return False
 
 def process_dictation_command(text, dict_commands, exec_agent, text_formatter):
-    """Process dictation-specific commands and return cleaned text."""
-    original_text = text
+    """Process dictation-specific commands using robust regex matching and return cleaned text."""
     executed_command = False
-    
-    # Check for dictation commands
-    for phrase, actions in dict_commands.items():
-        if phrase.lower() in text.lower():
+    processed_text = text
+
+    # Sort commands by length, longest first, to avoid partial matches (e.g., "delete that" before "delete")
+    sorted_phrases = sorted(dict_commands.keys(), key=len, reverse=True)
+
+    for phrase in sorted_phrases:
+        # Use regex to find the command phrase as a whole word/phrase
+        pattern = r'\b' + re.escape(phrase) + r'\b'
+
+        # Check if the pattern exists in the processed text
+        if re.search(pattern, processed_text, re.IGNORECASE):
             log_message(f"Executing dictation command: {phrase}")
+            executed_command = True
+            actions = dict_commands[phrase]
+
             for action in actions:
                 if isinstance(action, dict) and "type" in action and "value" in action:
                     exec_agent.execute_command_action(action["type"], action["value"])
                 else:
                     log_message(f"Invalid dictation command action format: {action}", level="ERROR")
             
-            # Remove the command phrase from text
-            text = text.lower().replace(phrase.lower(), "").strip()
-            executed_command = True
+            # Remove the command phrase from the text using regex
+            processed_text = re.sub(pattern, '', processed_text, flags=re.IGNORECASE)
+
+    # Clean up any extra whitespace left after removing commands
+    processed_text = re.sub(r'\s\s+', ' ', processed_text).strip()
+
+    # Format the remaining text if any is left
+    if processed_text:
+        processed_text = text_formatter.format_text(processed_text)
     
-    # Format remaining text if any
-    if text:
-        text = text_formatter.format_text(text)
-    
-    return text, executed_command
+    return processed_text, executed_command
 
 def select_model():
     """Handle model selection via command line argument."""
